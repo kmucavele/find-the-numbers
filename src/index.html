@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Zahlen finden</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
 <body>
-
+    <h1>Zahlen finden</h1>
+    <div id="game_settings">
+        <label for="size">Field Size</label>
+        <input id="size" type="number" value="4" min="2" max="8" placeholder="4 = 4*4 = 16 tile field">
+        <p>Difficulty <br> (solve blindly - numbers disappear after 5 sec)</p>
+        <label for="hard">Hard</label>
+        <input id="hard" type="checkbox" name="difficulty">
+        <button id="play">Play</button>
+    </div>
+    <div id="stats">
+        <div>
+            <p>Missing Numbers: </p>
+            <p id="missing-numbers"></p>
+        </div>
+        <div>
+            <p>Wrong Numbers: </p>
+            <p id="wrong-numbers"></p>
+        </div>
+    </div>
+    <div id="field">
+    </div>
+    <script src="frontend.js"></script>
 </body>
 </html>

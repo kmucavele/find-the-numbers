@@ -1,0 +1,107 @@
+body{
+    background-color: #b0ceff;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    padding: 5px;
+}
+
+#field {
+    display: grid;
+    grid-template-columns: repeat(4,1fr); /* 4 = dependent on matrix size*/
+    grid-gap: 5px;
+    background-color: #cbefef;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 50px auto;
+}
+.tile{
+    margin: 10px;
+    min-height: 50px;
+    min-width: 50px;
+    width: fit-content;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tile:hover{
+    background-color: #dfff50;
+    cursor: pointer;
+}
+
+.number{
+    text-align: center;
+    padding: 10px;
+    font-size: 2em;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.show {
+    opacity: 1;
+    transition: opacity 200ms;
+}
+
+.hide {
+    opacity: 0;
+    transition: opacity 400ms;
+}
+
+.wrong{
+    border-radius: 5px;
+    background-color: #ff3e3e;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#game_settings{
+    background-color: #73a2de;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#game_settings input{
+    margin: 0 auto;
+    width:  50%;
+    border-radius: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[id="hard"]{
+    background-color: blue;
+    border-radius: 15px;
+}
+
+button{
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
