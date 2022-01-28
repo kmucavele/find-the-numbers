@@ -105,3 +105,13 @@ button{
     height: 30px;
     border-radius: 10px;
 }
+
+#stopwatch {
+    text-align: center;
+    position: relative;
+    top: 18px;
+}
+
+#stopwatch p{
+    display: inline;
+}
