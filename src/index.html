@@ -2,37 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Zahlen finden</title>
-    <link rel="stylesheet" href="/style/style.css">
+    <title>Find The Numbers</title>
+    <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
-    <h1>Zahlen finden</h1>
-    <div id="game_settings">
-        <label for="size">Field Size</label>
-        <input id="size" type="number" value="4" min="2" max="8" placeholder="4 = 4*4 = 16 tile field">
-        <p>Difficulty <br> (solve blindly - numbers disappear after 5 sec)</p>
-        <label for="hard">Hard</label>
-        <input id="hard" type="checkbox" name="difficulty">
-        <button id="play">Play</button>
+<h1>Find The Numbers</h1>
+<div id="game_settings">
+    <label for="size">Field Size</label>
+    <input id="size" type="number" value="4" min="2" max="8" placeholder="4 = 4*4 = 16 tile field">
+    <p>Difficulty <br> (solve blindly - numbers disappear after 5 sec)</p>
+    <label for="hard">Hard</label>
+    <input id="hard" type="checkbox" name="difficulty">
+    <button id="play">Play</button>
+</div>
+<div id="stats">
+    <div>
+        <p>Missing Numbers: </p>
+        <p id="missing-numbers"></p>
     </div>
-    <div id="stats">
+    <div>
+        <p>Wrong Numbers: </p>
+        <p id="wrong-numbers"></p>
+    </div>
+    <div id="stopwatch">
+        <p>Time:</p>
         <div>
-            <p>Missing Numbers: </p>
-            <p id="missing-numbers"></p>
-        </div>
-        <div>
-            <p>Wrong Numbers: </p>
-            <p id="wrong-numbers"></p>
-        </div>
-        <div id="stopwatch">
-            <p>Time:</p>
-            <div>
-                <p id="min"></p>:<p id="sec"></p>
-            </div>
+            <p id="min"></p>:<p id="sec"></p>
         </div>
     </div>
-    <div id="field">
-    </div>
-    <script src="frontend.js"></script>
+</div>
+<div id="field">
+</div>
+<script src="Game.js"></script>
+<script src="Matrix.js"></script>
+<script src="RenderUtils.js"></script>
+<script src="DomElements.js"></script>
+<script src="Stopwatch.js"></script>
 </body>
 </html>
