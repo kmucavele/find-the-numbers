@@ -19,10 +19,11 @@ Each game will be timed by a stopwatch.
    1. Checking the "Hard" checkbox starts a more difficult game mode, 
    2. else it starts in the default game mode. 
 3. Click play
+4. Have fun!
 
 ### Game Modes
-**Default**: Numbers appear in the matrix and stay displayed.
-**Hard**: After clicking play, the numbers will disappear after 5 second.
+* **Default**: Numbers appear in the matrix and stay displayed.
+* **Hard**: After clicking play, the numbers will disappear after 5 second.
 
 ## Implementation
 * HTML
