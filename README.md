@@ -1,37 +1,31 @@
-# Assignment 5 - Zahlen finden
+# Find The Numbers
+
 ## Learning Objective
-In diesem Assignment geht es um Click-Handler, DOM-Manipulation und die Implementierung einer einfachen Spiellogik.
+This project was created to exercise Click-Handling and DOM-Manipulation with vanilla JavaScript. 
+Furthermore it is an introduction to a simple game logic implementation.
+The project was made in the first year of my apprenticeship.
 
-## Worum geht es?
-_"Zahlen finden"_ ist ein Geschicklichkeits-Spiel. Ziel ist es in einem Quadrat der Größe X mal X alle durcheinander 
-gewürfelten Zahlen der Reihe nach zu finden (d.h. anzuklicken).
+## How To Play
+_"Find The Numbers"_ is a concentration game. The goal is to find and click numbers, which are displayed in a X by X 
+square matrix. The numbers are shuffled. 
 
-Wurde die richtige, nächste Zahl angeklickt, verschwindet diese aus ihrem Feld.
-Wurde die falsche Zahl angeklickt, wird diese rot markiert.
+If the correct next number is clicked, it disappears from its field.
+If the wrong number was clicked, it will be marked in red.
+Each game will be timed by a stopwatch.
 
-## Tasks
-1. Baue ein statisches Frontend mit einer 4x4 Matrix an Zahlen. Sorge dafür, dass die Matrix zentriert als Quadrat dargestellt wird.
+1. Choose the field size (for the X by X matrix)
+   1. e.g.: A field size of 4, will show 16 randomly displayed numbers
+2. Choose the game mode
+   1. Checking the "Hard" checkbox starts a more difficult game mode, 
+   2. else it starts in the default game mode. 
+3. Click play
 
-2. Implementiere das Javascript-ClickHandling, das prüft, ob die richtige Zahl angeklickt wurde und das oben genannte 
-Verhalten auslöst. (Bonus: nutze kein jQuery für das Handling. https://youmightnotneedjquery.com/ )
+### Game Modes
+**Default**: Numbers appear in the matrix and stay displayed.
+**Hard**: After clicking play, the numbers will disappear after 5 second.
 
-3. Ersetze den statischen Content durch ein Template. Dieses Template wird für die Zahlen 0 bis 15 jeweils neu 
-befüllt und in die Matrix eingefügt. 
-Sorge dafür, dass die Zahlen randomisiert angeordnet werden. (Stichwort shuffle)
-
-4. Dynamisiere die Erstellung der Matrix insofern, dass durch ein Auswahl- oder Textfeld die Anzahl der Zahlen festgelegt werden kann und bei Klick auf den "Erstellen"-Button ein neues Rätsel generiert wird.
-
-### Zusatzaufgaben
-#### Zusatz 1:
-Füge eine Fehler-Counter ein. Wähle einen geeigneten Ort für die Darstellung.
-
-#### Zusatz 2:
-Füge einen Zähler ein, der die verbleibenden Zahlen zählt. Wähle einen geeigneten Ort für die Darstellung.
-
-#### Zusatz 3:
-Füge eine Stoppuhr ein, die automatisch beim ersten Klick auf eine Zahl startet. Wähle einen geeigneten Ort 
-für die Darstellung.
-
-#### Zusatz 4:
-Lasse die Zahlen nach 5 Sekunden verschwinden (nicht einfach weiß werden...) und nach Klick tauchen sie wieder auf 
-(falls richtig), alle anderen Funktionalitäten bleiben erhalten. Das Spiel muss dann aus dem Kopf gelöst werden.
+## Implementation
+* HTML
+* CSS
+* Vanilla JavaScript
+  * [No JQuery](https://youmightnotneedjquery.com/)
