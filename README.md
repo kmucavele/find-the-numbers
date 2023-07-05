@@ -1,7 +1,5 @@
 # Find The Numbers Game
 
-## Getting Started
-Simply clone this repository and open the html file in a browser
 
 ## Description
 _"Find The Numbers"_ is a concentration game. The goal is to find and click numbers, which are displayed in a X by X 
@@ -15,6 +13,9 @@ Each game will be timed by a stopwatch.
 This project was created to exercise Click-Handling and DOM-Manipulation with vanilla JavaScript.
 Furthermore it is an introduction to a simple game logic implementation.
 The project was made in the first year of my apprenticeship.
+
+## Usage
+Simply clone this repository and open the html file in a browser
 
 ## How To Play
 1. Choose the field size (for the X by X matrix)
