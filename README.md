@@ -2,7 +2,7 @@
 
 
 ## Description
-_"Find The Numbers"_ is a concentration game. The goal is to find and click numbers, which are displayed in a X by X 
+_"Find The Numbers"_ is a concentration game. The goal is to find and click numbers, which are displayed in an X by X 
 square matrix. The numbers are shuffled. 
 
 If the correct next number is clicked, it disappears from its field.
@@ -11,8 +11,9 @@ Each game will be timed by a stopwatch.
 
 ## Personal Learning Objective
 This project was created to exercise Click-Handling and DOM-Manipulation with vanilla JavaScript.
-Furthermore it is an introduction to a simple game logic implementation.
-The project was made in the first year of my apprenticeship.
+Furthermore, it is an introduction to a simple game logic implementation.
+
+The project was made in the first year of my apprenticeship and serves to showcase work samples.
 
 ## Usage
 Simply clone this repository and open the html file in a browser
