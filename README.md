@@ -2,7 +2,7 @@
 
 
 ## Description
-_"Find The Numbers"_ is a concentration game. The goal is to find and click numbers, which are displayed in an X by X 
+_"Find The Numbers"_ is a concentration game. The goal is to find and click numbers in the correct order, which are displayed in an X by X 
 square matrix. The numbers are shuffled. 
 
 If the correct next number is clicked, it disappears from its field.
